@@ -1,0 +1,296 @@
+/*!
+Theme Name:   Articlewave Blog
+Theme URI:    https://mysterythemes.com/wp-themes/articlewave-blog/
+Author:       Mystery Themes
+Author URI:   https://mysterythemes.com/
+Description:  Articlewave Blog is a sophisticated WordPress theme crafted for bloggers, writers, and content creators. Its elegant design and user-friendly features create an ideal platform for expressing thoughts and effectively engaging with your audience. Notably, it is compatible with Gutenberg and GDPR, RTL and Translation ready, WooCommerce, SEO-friendly,and supports various other popular plugins. Also, You can check Demo here:https://preview.mysterythemes.com/articlewave-demos/ & Documentation here: https://docs.mysterythemes.com/articlewave/
+Version:      1.0.2
+Tested up to: 6.4
+Requires PHP: 7.2
+License:      GNU General Public License v2 or later
+License URI:  https://www.gnu.org/licenses/old-licenses/gpl-2.0.en.html
+Template:     articlewave
+Text Domain:  articlewave-blog
+Tags:         blog, entertainment, news, grid-layout, one-column, two-columns, three-columns, four-columns, left-sidebar, right-sidebar, custom-background, custom-logo, custom-header, custom-logo, custom-menu, featured-images, footer-widgets, full-width-template, threaded-comments, translation-ready, rtl-language-support
+
+This theme, like WordPress, is licensed under the GPL.
+Use it to make something cool, have fun, and share what you've learned.
+
+articlewave blog is based on Underscores https://underscores.me/, (C) 2012-2020 Automattic, Inc.
+Underscores is distributed under the terms of the GNU GPL v2 or later.
+
+Normalizing styles have been helped along thanks to the fine work of
+Nicolas Gallagher and Jonathan Neal https://necolas.github.io/normalize.css/
+*/
+
+.site-branding {
+	padding: 25px 0 10px;
+}
+
+.front-page-post-style--list .single-post-wrap .post-thumbnail-wrap,
+ .front-page-post-style--list .single-post-wrap .post-thumbnail-wrap a {
+	height: 290px;
+	display: block;
+}
+
+#site-navigation ul li a {
+	font-size: 18px;
+}
+
+.entry-content p {
+	color: #333333;
+}
+
+body {
+	font-size: 17px;
+}
+
+.widget_archive a, .widget_categories a, .widget_recent_entries a, .widget_meta a, .widget_recent_comments li, .widget_rss li, .widget_pages li a, .widget_nav_menu li a, .wp-block-latest-posts li a, .wp-block-archives li a, .wp-block-categories li a, .wp-block-page-list li a, .wp-block-latest-comments li {
+	font-size: 16px;
+}
+
+.latest-posts-wrapper .post-content-wrap, 
+.trending-posts-wrapper .post-content-wrap {
+	margin: 15px 0 15px;
+}
+
+.latest-posts-wrapper .post-content-wrap .post-cats-wrap, 
+.trending-posts-wrapper .post-content-wrap .post-cats-wrap {
+	display: none;
+}
+
+.latest-posts-wrapper  .post-wrap,
+.trending-posts-wrapper  .post-wrap{
+	padding: 0 0 10px;
+}
+
+.latest-posts-wrapper  .post-wrap:first-child,
+.trending-posts-wrapper  .post-wrap:first-child{
+    padding-top: 10px;
+}
+
+#colophon .widget .widget-title {
+	color: #fff;
+}
+
+/*--------------------------------------------------------------
+Social Icon Official Color CSS
+--------------------------------------------------------------*/
+.articlewave-social-icons-wrapper .single-icon-wrap {
+	font-size: 22px;
+}
+
+#masthead .bxl-facebook,
+#masthead .bxl-facebook-circle,
+#masthead .bxl-facebook-square {
+  color: #3b5998;
+}
+
+#masthead .bxl-twitter {
+  color: #1da1f2;
+}
+
+#masthead .bxl-google,
+#masthead .bxl-google-plus,
+#masthead .bxl-google-plus-circle {
+  color: #ea4335;
+}
+
+#masthead .bxl-google-cloud {
+  color: #34a853;
+}
+
+#masthead .bxl-instagram,
+#masthead .bxl-instagram-alt {
+  color: #c32aa3;
+}
+
+#masthead .bxl-skype {
+  color: #00aff0;
+}
+
+#masthead .bxl-whatsapp,
+#masthead .bxl-whatsapp-square {
+  color: #25d366;
+}
+
+#masthead .bxl-tiktok {
+  color: #ee1d52;
+}
+
+#masthead .bxl-airbnb {
+  color: #F73659;
+}
+
+#masthead .bxl-deviantart {
+  color: #05cc47;
+}
+
+#masthead .bxl-linkedin,
+#masthead .bxl-linkedin-square {
+  color: #0a66c2;
+}
+
+#masthead .bxl-pinterest,
+#masthead .bxl-pinterest-alt {
+  color: #bd081c;
+}
+
+#masthead .bxl-adobe {
+  color: #DB2219;
+}
+
+#masthead .bxl-flickr,
+#masthead .bxl-flickr-square {
+  color: #f40083;
+}
+
+#masthead .bxl-tumblr {
+  color: #35465d;
+}
+
+#masthead .bxl-slack {
+  color: #4a154b;
+}
+
+#masthead .bxl-reddit {
+  color: #ff4500;
+}
+
+#masthead .bxl-messenger {
+  color: #913BCC;
+}
+
+#masthead .bxl-wordpress {
+  color: #009BCB;
+}
+
+#masthead .bxl-behance {
+  color: #0054F7;
+}
+
+#masthead .bxl-dribbble {
+  color: #ea4c89;
+}
+
+#masthead .bxl-yahoo {
+  color: #6001d2;
+}
+
+#masthead .bxl-blogger {
+  color: #ED7800;
+}
+
+#masthead .bxl-snapchat {
+  color: #fffc00;
+}
+
+#masthead .bxl-wix {
+  color: #F4B66C;
+}
+
+#masthead .bxl-meta {
+  color: #005ED6;
+}
+
+#masthead .bxl-baidu {
+  color: #2319DC;
+}
+
+#masthead .bxl-twitch {
+  color: #8C45F7;
+}
+
+#masthead .bxl-discord-alt {
+  color: #5562EA;
+}
+
+#masthead .bxl-vk {
+  color: #0072F7;
+}
+
+#masthead .bxl-trip-advisor {
+  color: #31D99C;
+}
+
+#masthead .bxl-telegram {
+  color: #28A4E4;
+}
+
+#masthead .bxl-quora {
+  color: #B32A26;
+}
+
+#masthead .bxl-ok-ru {
+  color: #EF8B27;
+}
+
+#masthead .bxl-microsoft-teams {
+  color: #544FBC;
+}
+
+#masthead .bxl-foursquare {
+  color: #F14572;
+}
+
+#masthead .bxl-soundcloud {
+  color: #F75200;
+}
+
+#masthead .bxl-vimeo {
+  color: #00A8E8;
+}
+
+#masthead .bxl-digg {
+  color: #313131;
+}
+
+#masthead .bxl-periscope {
+  color: #3E9FBE;
+}
+
+#masthead .bxl-xing {
+  color: #005D5B;
+}
+
+#masthead .bxl-imdb {
+  color: #EDBF17;
+}
+
+#masthead .bxl-youtube {
+  color: #C62828;
+}
+
+.articlewave-author-container {
+  padding: 15px 15px;
+}
+
+.entry-title:hover{
+  color: #353535;
+}
+
+/* Hover effect two for post thumbnail */
+
+.post-image.hover-effect--two {
+  overflow: hidden;
+  border-radius: 20px;
+}
+
+.post-image.hover-effect--two img{
+  -webkit-transition: all 0.3s ease;
+  -o-transition: all 0.3s ease;
+  transition: all 0.3s ease;
+  -webkit-transform: scale(1) rotate(0deg);
+  -ms-transform: scale(1) rotate(0deg);
+  -o-transform: scale(1) rotate(0deg);
+  transform: scale(1) rotate(0deg);
+  opacity: 1;
+}
+
+.post-image.hover-effect--two:hover img {
+  -webkit-transform: scale(1.05) rotate(1deg);
+  -ms-transform: scale(1.05) rotate(1deg);
+  -o-transform: scale(1.05) rotate(1deg);
+  transform: scale(1.05) rotate(1deg);
+  opacity: 0.8;
+}
